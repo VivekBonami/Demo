@@ -1,0 +1,148 @@
+//   home-page accordion button style
+
+.indexPageWrap {
+  padding-bottom: 0;
+
+  .accordWrap {
+    .accordBody button {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #435b75;
+      border: none;
+      outline: none;
+      width: 100%;
+      background-color: transparent;
+      cursor: pointer;
+      text-align: left;
+      padding: 18px 20px;
+      display: flex;
+    }
+  }
+}
+//   Click-here button ui
+
+.tripello-magic-content {
+  margin-top: 20px;
+  max-width: 1110px;
+  margin: 20px auto 0;
+  strong {
+    font-weight: 500;
+
+    button {
+      border: none;
+      background: transparent;
+      color: #435b75;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-size: 19px;
+      padding: 0px 5px;
+      cursor: pointer;
+    }
+  }
+}
+.choosePlan {
+  .planBtmBox {
+    .planRateBox sub {
+      vertical-align: baseline;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+.tripello-magic-wrapper {
+  .videoBox {
+    .video-play-btn img {
+      height: 100px;
+      width: 100px;
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tripello-magic-wrapper {
+    .videoBox {
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+        inset -2px -2px 6px 0 #ffffff;
+      border: solid 1px #d2dae6;
+      background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+      min-height: 210px;
+      overflow: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sctionTitle {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .indexPageWrap {
+    padding-bottom: 0;
+
+    .accordWrap {
+      .accordBody button {
+        padding: 12px 0 12px 10px;
+      }
+    }
+  }
+
+  .indexPageWrap {
+    .triptek-inventory-wrapper {
+      max-width: 375px;
+      padding: 45px 15px 0px;
+
+      .colCard .col {
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        .cardStyle {
+          flex-direction: row;
+          height: 100%;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}
+
+// End-home-page
+
+// faq-section-img-ui
+
+// Home-page-faq
+
+.home-faq {
+  .accordWrap {
+    .accordHead {
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      img {
+        max-width: 26px;
+        margin-right: 12px;
+        margin-top: -3px;
+      }
+    }
+  }
+}
+// Home-page-faq end
+
+.faq-wrapper {
+  .accordion {
+    button img {
+      margin-right: 10px;
+      max-width: 22px;
+      margin-top: -2px;
+    }
+  }
+}
+
+//  Faq-section-end

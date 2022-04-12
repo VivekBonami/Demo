@@ -1,0 +1,1569 @@
+// widget-styling
+.widget-page-wrap {
+  .inputStyle .widget-dropdown {
+    max-width: 660px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+
+    .icon-location-on {
+      position: absolute;
+      left: 15px;
+      font-size: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 18px;
+    }
+  }
+
+  .removeFlight {
+    border: none;
+    background: none;
+    color: white;
+  }
+  .fa-angle-down {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 0px;
+    line-height: 15px;
+  }
+  .tabContent {
+    padding: 20px 30px 31px;
+  }
+  .centerAlign {
+    display: none;
+  }
+
+  .mainContent {
+    .boxStyle {
+      .tabsStyle a {
+        padding: 21px 11px 13px 12px;
+      }
+    }
+  }
+}
+
+// widget-tab-dropdown-style
+
+.widget-page-wrap {
+  .dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 15%);
+    border: solid 1px #cfd1e1;
+    background-color: #e6e7ee;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: none;
+    padding: 6px;
+    min-width: 100%;
+    max-height: 400px;
+    overflow: auto;
+    display: none;
+    z-index: 1;
+
+    .disabled {
+      width: 100%;
+      display: block;
+      padding: 11px 8px;
+      border-radius: 6px;
+      border: solid 1px transparent;
+      box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+        inset -2px -2px 6px 0 #ffffff;
+      border-color: #d2dae6;
+      background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+    }
+
+    .dorpdown-content {
+      position: relative;
+      align-items: center;
+      display: flex;
+      color: var(--text-color);
+      font-size: 17px;
+      width: 100%;
+      padding: 11px 8px;
+      border-radius: 6px;
+      border: solid 1px transparent;
+
+      .icon-location-on {
+        position: absolute;
+        left: 10px !important;
+        font-size: 16px;
+        top: 20px;
+        transform: translateY(-50%);
+      }
+
+      .locationName {
+        padding-left: 20px;
+        position: relative;
+      }
+    }
+  }
+
+  .dorpdown-content:hover {
+    box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+      inset -2px -2px 6px 0 #ffffff;
+    border-color: #d2dae6;
+    background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+  }
+}
+
+// Date-picker-styles
+
+.Date-picker-range {
+  .DateRangePickerInput {
+    font-size: 17px;
+    color: #1d6ec9;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+      inset -2px -2px 6px 0 #ffffff;
+    border: solid 1px #d2dae6;
+    background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+    padding: 0px 0px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+
+    .DateInput {
+      flex: 0 0 0px;
+      margin: 9px;
+      width: 85px;
+
+      .DateInput_input {
+        font-size: 1rem;
+        border-bottom: 0;
+        padding: 5px 0px 0px;
+      }
+      #check_out {
+        margin-right: 10px;
+      }
+    }
+
+    .DateRangePickerInput_calendarIcon {
+      margin-right: 0px;
+      vertical-align: top;
+      margin-top: -5px;
+      margin-left: 5px;
+      padding: 10px 8px;
+    }
+
+    .DateRangePickerInput_arrow {
+      display: inline-block;
+      vertical-align: middle;
+      color: #484848;
+      margin-left: -2px;
+      margin-top: -6px;
+    }
+  }
+}
+
+// Flight-tab-style
+
+#flightsTab {
+  .flexStart .flightType {
+    .btnSml {
+      padding: 6px;
+      margin-right: 10.5px;
+      min-width: 120px;
+    }
+  }
+  .btnGroup {
+    .btnSml {
+      font-family: "Ubuntu", sans-serif;
+    }
+  }
+}
+
+// Hotel-tab-style
+
+#apartmentsTab {
+  .filterSecondRow {
+    .inputStyle {
+      margin-right: 0px;
+    }
+    .Date-picker-range {
+      margin-left: 10px;
+      .DateRangePicker .DateRangePickerInput {
+        max-width: 300px;
+        min-height: 45px;
+        display: flex;
+        justify-content: flex-start;
+        .startDate {
+          .icon-invitation {
+            margin-right: 0px;
+          }
+        }
+        .DateRangePickerInput_arrow {
+          width: 100px;
+          margin-left: 0px;
+          margin-top: -5px;
+          .endDate {
+            padding-left: 20px;
+          }
+        }
+        .DateInput {
+          margin: 5px 0px 5px 0px;
+          width: auto;
+          margin-right: 0px;
+          margin-left: 0px;
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+// add-button style
+
+.dropdownInWrap {
+  .startEndDateRoom {
+    button {
+      padding: 6px 0 6px;
+      border: none;
+      color: #1d6ec9;
+      font-size: 14px;
+      display: inline-block;
+      padding-left: 7px;
+      background: transparent;
+      cursor: pointer;
+      .icon-add {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+// add-button style end
+
+// Close-btn style
+.dropDownSubWrap {
+  .roomHead {
+    button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      margin-top: 3px;
+    }
+  }
+}
+
+// widget-style-updated age-count
+
+.child-age-flex {
+  width: 100%;
+  > div {
+    display: flex;
+    flex: 100%;
+    flex-wrap: nowrap;
+
+    label {
+      flex: 0 0 50%;
+      width: 50%;
+    }
+
+    .css-b62m3t-container {
+      display: flex;
+      flex: 0 0 50%;
+      width: 50%;
+      justify-content: right;
+    }
+  }
+}
+
+//  resposive view-popup- calender
+
+.date-picker-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: var(--bg-color);
+  padding: 30px 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: block;
+  z-index: 2;
+  .closePopup {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    right: 0;
+
+    .icon-close:before {
+         color: var(--text-color3);
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .widget-page-wrap {
+    .tabContent {
+      padding: 20px 20px 31px;
+    }
+  }
+}
+
+// responsive-style for search btn
+
+@media (max-width: 1024px) {
+  .widget-page-wrap {
+    .searchBtnWrap {
+      .btn {
+        min-width: 150px;
+      }
+    }
+  }
+  .Date-picker-range {
+    .DateRangePickerInput {
+      margin-right: 10px;
+    }
+  }
+  .searchBtnWrap {
+    margin-left: 0px;
+  }
+}
+
+// resposive-style
+
+@media (max-width: 991px) {
+  .Date-picker-range {
+    .DateRangePickerInput {
+      margin: 18px 0px;
+    }
+  }
+  .widget-page-wrap {
+    .inputStyle .widget-dropdown {
+      max-width: 100%;
+      width: 100%;
+      position: relative;
+      top: 0;
+      box-sizing: border-box;
+    }
+    .centerAlign {
+      display: block;
+      img {
+        margin-bottom: 45px;
+        margin-top: 47px;
+      }
+    }
+  }
+
+  .boxStyle #apartmentsTab {
+    .showDropdown {
+      .icon-location-on {
+        top: 22px;
+        left: 15px;
+        font-size: 20px;
+      }
+    }
+
+    .dorpdown-content {
+      .icon-location-on {
+        top: 20px;
+        left: 5px;
+        font-size: 16px;
+      }
+    }
+    .filterSecondRow {
+      flex-direction: row;
+      flex: 100%;
+      justify-content: space-between;
+      padding-top: 10px;
+      .inputStyle {
+        flex-grow: 1;
+        margin-right: 0px;
+      }
+      .Date-picker-range {
+        margin-right: 10px;
+        .DateRangePickerInput {
+          margin: 0px;
+          width: 100%;
+          justify-content: flex-start;
+          .DateRangePickerInput_arrow {
+            width: 70px;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: -5px;
+            .endDate {
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+
+      .searchBtnWrap .btn {
+        min-width: 150px;
+      }
+    }
+  }
+}
+
+// Flight-tab-button-grp layout
+
+@media (max-width: 991px) {
+  #flightsTab {
+    .btnGroup {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-right: 0px;
+
+      .btnSml {
+           width: 31%;
+          min-width: auto !important;
+          margin-right: 0px !important;
+      }
+    }
+    .flatDropdown .custom-select__control {
+      .custom-select__indicators {
+        padding: 0px 0px !important;
+        .css-tj5bde-Svg {
+          width: 21px;
+          color: #1d6ec9;
+        }
+      }
+    }
+    .roomNpersonWrap {
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+   
+    .flatDropdown {
+      margin-left: 0px ;
+      margin-right: 13px  ;
+      .btnSml.width180 {
+        margin-right: 0px;
+        margin-left: 0px;
+        min-width: 112px;
+        width: 112px;
+        padding: 6px 11px 6px 15px;
+        white-space: nowrap;
+      }
+    }
+     .flight-class{
+      margin-right: 0px;
+       .btnSml.width180 {
+        margin-right: 0px;
+        margin-left: 0px;
+        min-width: 114px;
+        width: 114px;
+        padding: 0px 6px 0px 0px;
+        white-space: nowrap;
+        .custom-select__control {
+          .custom-select__value-container{
+          padding: 2px 0px 2px 13px;
+          }
+           .custom-select__indicator {
+           padding: 0px 0px;
+         }
+        }
+ 
+      }
+    }
+
+    .flightCnt {
+      .searchBtnWrap {
+        margin-top: 15px;
+        padding-top: 0px;
+      }
+      .filterSecondRow {
+        padding-top: 10px !important;
+      }
+
+      .flex-input-wrapper {
+        min-width: auto;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+        .roomNpersonWrap {
+          margin: 0px;
+          .btnSml.width180 {
+            margin-right: 0 !important;
+            width: 100px;
+            padding: 7px;
+            white-space: nowrap;
+          }
+        }
+        .select-input-dropdown {
+          margin-left: 5px;
+          .btnSml.width180 {
+            margin-right: 0 !important;
+            max-width: 120px;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .startNendWrap {
+        display: flex;
+        flex: 50%;
+        align-items: center;
+        margin-right: 10px;
+      }
+      .startEndDate {
+        display: flex;
+        max-width: 240px;
+        width: 100%;
+        margin: 0px 0px 0px 0px !important;
+        align-items: center;
+      }
+      .Date-picker-range .DateRangePickerInput {
+        margin: 0px 0px;
+        justify-content: space-between;
+      }
+    }
+  }
+  #oneWay,
+  #rounttripBox {
+    .inputStyle {
+      max-width: 100% !important;
+      width: 100%;
+    }
+    .startNendWrap {
+      margin-left: 0px;
+    }
+  }
+
+.landingPage .navigation ul a,
+.landingPage .navigation ul a [class^=icon-]:before {
+    color: var(--text-color3);
+}
+}
+
+@media (max-width: 767px) {
+  // Hotel-tab mobilepopup
+  #apartmentsTab .showDropdown {
+    .mobilePopup {
+      display: block;
+      // visibility: hidden;
+      overflow: hidden;
+
+      .inputPopTitle {
+        font-size: 28px;
+        font-weight: 300;
+        color: var(--text-color);
+        display: block;
+        padding-right: 45px;
+        margin-bottom: 32px;
+      }
+
+      .dropdown-content {
+        position: relative;
+        margin: 0 0px;
+      }
+
+      .widget-dropdown {
+        width: 100%;
+        padding-left: 35px;
+        border: none;
+        box-shadow: none;
+        background: none;
+        border-radius: 0px 0px;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      .mobilePopup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background: var(--bg-color);
+        padding: 50px 29px;
+        z-index: 999;
+        overflow: hidden;
+      }
+    }
+    .date-picker-popup {
+      padding: 40px 0px;
+    }
+    .date-picker-popup {
+      .Date-picker-range {
+        .DateRangePicker .DateRangePickerInput {
+          .DateInput {
+            margin: 9px 0px 0px 0px;
+            margin-left: -0px;
+            #check_out {
+              margin-right: 0px;
+            }
+          }
+          .DateRangePickerInput_calendarIcon {
+            margin-top: 3px;
+            margin-left: 7px;
+          }
+          .DateRangePickerInput_arrow {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+  // Hotel-tab mobilepopup end
+
+  .boxStyle #apartmentsTab {
+    .showDropdown {
+      .icon-location-on {
+        top: 24px;
+        left: 4px;
+        font-size: 20px;
+      }
+
+      .icon-location-on:before {
+        font-size: 20px;
+      }
+
+      .dorpdown-content {
+        .icon-location-on {
+          top: 20px;
+          left: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+    .filterSecondRow {
+      flex-direction: column;
+      padding-top: 22px;
+      .inputStyle{
+        .icon-location-on{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .widget-page-wrap {
+    .tabContent {
+      padding: 15px 15px 20px;
+    }
+    .dropdown-menu {
+      position: absolute;
+      border-radius: none;
+      box-shadow: none;
+      border: none;
+      background-color: none;
+      transform: translate3d(0px, 45px, 0px);
+      width: 120%;
+      display: block;
+      max-height: 300px;
+      padding: 5px 0px;
+      overflow: auto;
+      margin-left: 0px;
+
+      .disabled {
+        width: 100%;
+        display: block;
+        padding: 11px 8px;
+        border-radius: 6px;
+        border: solid 1px transparent;
+        box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+          inset -2px -2px 6px 0 #ffffff;
+        border-color: #d2dae6;
+        background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+      }
+
+      .dorpdown-content {
+        align-items: center;
+        display: flex;
+        color: var(--text-color);
+        font-size: 17px;
+        width: 100%;
+        padding: 11px 10px;
+        border-radius: 6px;
+        border: solid 1px transparent;
+        margin-left: 0px;
+      }
+
+      .dorpdown-content .locationName {
+        padding-left: 25px;
+      }
+    }
+    .centerAlign img {
+      margin-bottom: 45px;
+      margin-top: 0px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .Date-picker-range {
+    margin-top: 40px;
+
+    .DateRangePickerInput {
+      margin: 18px 0px;
+
+      .DateRangePickerInput_calendarIcon {
+        margin-right: 0px;
+        vertical-align: top;
+        margin-top: 0px;
+        padding: 5px;
+      }
+
+      .DateRangePickerInput_arrow {
+        width: 0px;
+        display: inline-block;
+        vertical-align: middle;
+        color: #484848;
+        margin-top: -3px;
+      }
+    }
+  }
+}
+
+// Date-picker-type-style
+
+@media (max-width: 767px) {
+  .date-picker-type {
+    display: block;
+    margin-bottom: 0px;
+    width: 100%;
+
+    .date-picker-style {
+      border-radius: 10px;
+      box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+        inset -2px -2px 6px 0 #ffffff;
+      border: solid 1px #d2dae6;
+      background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+      width: 100%;
+      padding: 11.5px 13px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      button {
+        border: none;
+        background: transparent;
+        text-align: left;
+        font-size: 17px;
+        cursor: pointer;
+      }
+
+      .form-group {
+        display: flex;
+      }
+
+      .icon-invitation {
+        margin-right: 8px;
+      }
+    }
+
+    .SingleDatePickerInput__withBorder,
+    .SingleDatePickerInput {
+      border: none;
+      background-color: #e8e8ef;
+    }
+
+    .DateInput {
+      background-color: #e8e8ef;
+
+      .DateInput_input {
+        padding: 0px 0px 0px 0px;
+        line-height: 0px;
+      }
+    }
+  }
+
+  .input-for-mobile {
+    .responsive-input .inputStyle {
+      border-radius: 10px;
+      box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+        inset -2px -2px 6px 0 #ffffff;
+      border: solid 1px #d2dae6;
+      background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+      width: 100%;
+      padding: 12px 35px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      font-size: 17px;
+      font-weight: 200;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .widget-page-wrap .tabContentWrap {
+    .dropdownWrap {
+      .btnSml {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .adultdropdown-wrapper {
+        display: flex;
+        flex: 0 0 100%;
+        button {
+          margin-right: 9px;
+          flex: 0 0 49%;
+          width: 49%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .Date-picker-range {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 0px;
+
+    .DateRangePicker {
+      min-width: 300px;
+      margin: 0px 0px;
+    }
+    .DateRangePickerInput {
+      font-size: 17px;
+      color: #1d6ec9;
+      border-radius: 0px;
+      box-shadow: none;
+      border: none;
+      border-bottom: 2px solid #4385d0;
+      background-image: none;
+      padding: 0px 0px;
+      margin: 10px 0px;
+      justify-content: flex-start;
+      align-items: center;
+
+      .DateInput {
+        height: 0px;
+        display: flex;
+        width: 100px;
+        flex: 0 0 100px;
+        padding: 0px 5px;
+        margin: 0px;
+
+        input {
+          padding: 0px 0px 0px 10px;
+          font-size: 17px;
+          color: #1d6ec9;
+          border-radius: 0px;
+          box-shadow: none;
+          -webkit-box-shadow: none;
+          background-image: none;
+          min-width: 0px;
+          vertical-align: middle;
+          min-height: 0px;
+        }
+      }
+    }
+  }
+}
+
+span,
+.css-1f43avz-a11yText-A11yText,
+.css-1f43avz-a11yText-A11yText {
+  outline: none;
+  border: none;
+}
+
+// flight-tab responsive for tab and mobile
+
+@media (max-width: 767px) {
+  #flightsTab {
+    position: relative;
+    .btnGroup {
+      margin-right: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .btnSml {
+        text-align: center;
+        margin-right: 0px !important;
+        min-width: auto !important;
+        box-sizing: border-box;
+      }
+    }
+    .flightCnt {
+      .startNendWrap {
+        display: flex;
+        flex: 50% 1;
+        align-items: center;
+        margin-left: 10px;
+      }
+    }
+    .mobileShow .dropdownWrap {
+      display: flex;
+      margin-left: 0px;
+      width: 100%;
+      margin: 0px;
+      justify-content: space-between;
+      .btnSml {
+        flex: 0 0 49%;
+        min-width: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+      }
+    }
+    .roomNpersonWrap .dropdownInWrap {
+      width: 100%;
+      padding: 0px 14px 25px 14px;
+      overflow: hidden;
+      .mobileFullWidthPopupContent {
+        overflow-y: hidden;
+        .popupHeader {
+          width: 100%;
+          text-align: center;
+          margin: 21px 0px;
+          h4 {
+            font-size: 23px;
+            font-weight: normal;
+            color: var(--text-color);
+            display: block;
+          }
+          .popupCloseBtn {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 14px;
+            border: none;
+            background: none;
+            .icon-close:before {
+              font-size: 16px;
+                 color: var(--text-color3);
+            }
+          }
+        }
+        .dropdownInMain {
+          .dropdownWrap > div {
+            width: 100%;
+            padding: 0px 0px;
+            .btnSml {
+              width: 100%;
+              min-height: 45px;
+              font-size: 17px;
+              padding: 0px;
+              line-height: 1;
+              border-radius: 10px;
+              box-shadow: -2px -2px 4px 0 rgb(255 255 255 / 80%),
+                2px 2px 3px 0 rgb(0 0 0 / 15%);
+              border: solid 1px #d2dae6;
+              background-image: linear-gradient(to right, #ececf3, #e6e7ee);
+              margin: 0px;
+              .custom-select__control {
+                min-width: 100%;
+                flex: 0 0 100%;
+                padding: 0px;
+                border: none;
+                cursor: pointer;
+                box-shadow: none;
+                background: transparent;
+                &:hover {
+                  .custom-select__single-value,
+                  .custom-select__value-container
+                    .custom-select__input-container,
+                  .custom-select__indicator .fa-angle-down * {
+                    color: rgb(0, 0, 0);
+                    fill: rgb(0, 0, 0);
+                  }
+                }
+
+                .custom-select__indicators,
+                .custom-select__indicator {
+                  padding: 0px 6px;
+                  text-align: right;
+                  .fa-angle-down {
+                    width: 21px;
+                    color: #1d6ec9;
+                  }
+                }
+                .custom-select__single-value,
+                .custom-select__input-container {
+                  color: #1d6ec9;
+                  height: 20px;
+                  padding-left: 2px;
+                }
+              }
+              .custom-select__menu {
+                left: 0px;
+                width: 100%;
+              }
+            }
+          }
+          .dropDownSubWrap {
+            padding: 0px;
+            border-radius: 8px;
+            box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 20%),
+              inset -2px -2px 6px 0 #ffffff;
+            border: solid 1px #d2dae6;
+            padding: 4px 5px 10px;
+            margin-bottom: 10px;
+            .inWrap {
+              padding: 10px;
+            }
+          }
+        }
+      }
+      .dropdownBtnWrap {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+#oneWay,
+#rounttripBox {
+  .filterSecondRow {
+    padding-top: 50px;
+    .searchBtnWrap {
+      margin-bottom: 0px;
+    }
+  }
+  .startNendWrap {
+    margin-right: 10px;
+    width: 100%;
+    .inputStyle {
+      max-width: auto;
+      min-width: auto;
+      width: 100%;
+      box-sizing: inherit;
+    }
+  }
+  .locationAndDateWrap .startEndDate {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+// Flight-tab mobile popup
+
+@media (max-width: 767px) {
+  .closePopup {
+    border: none;
+    background: transparent;
+    .icon-close {
+      font-size: 16px;
+    }
+  }
+
+  #flightsTab {
+    // flight-tab-mobilePopup-styling
+    .mobilePopup {
+      overflow: hidden;
+
+      .inputInWrap {
+        .rbt-input-hint {
+          min-width: 100%;
+          background: none;
+        }
+        .icon-location-on {
+          left: 4px !important;
+        }
+      }
+      .dorpdown-content {
+        .icon-location-on {
+          left: 10px !important;
+        }
+      }
+
+      .widget-dropdown {
+        width: 100%;
+        background-color: #4385d0;
+        border: none;
+        box-shadow: none;
+        min-height: 40px;
+        background: none;
+        border-radius: 0px 0px;
+        margin: 0px 0px;
+        border-bottom: 2px solid var(--border-color);
+      }
+    }
+    // flight-tab-mobilePopup-styling end
+
+    // Flight-tab-style
+
+    .flightTypeCnt {
+      // flight-tab-Add-Remove-button-style
+      .flightCnt {
+        .searchBtnWrap {
+          text-align: center;
+          padding-top: 20px;
+          margin-top: 0px;
+          .btn {
+            min-width: 150px;
+          }
+        }
+        .addremoveBtn {
+          display: flex;
+          .addFlight,
+          .removeFlight {
+            position: static;
+            flex: 0 0 50%;
+            font-size: 17px !important;
+            width: 100%;
+            text-align: left;
+            color: var(--text-color3);
+            padding: 0px 0 22px 5px !important;
+
+            .icon-minus:before {
+              color: var(--text-color3);
+              font-weight: bold;
+              font-weight: 20px;
+            }
+          }
+        }
+
+        .locationAndDateWrap > div {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .locationAndDateWrap {
+          .date-picker-type {
+            width: 100%;
+            .datepicker-types {
+              display: flex;
+              width: 100%;
+              flex-wrap: nowrap;
+              justify-content: space-between;
+
+              .date-types-1 {
+                flex: 0 0 44%;
+                line-height: 1;
+              }
+              .date-types-2 {
+                line-height: 0.9;
+                .icon-arrow {
+                  margin-left: 0px;
+                }
+              }
+              .date-types-3 {
+                flex: 0 0 44%;
+                text-align: right;
+                padding: 0px 8px;
+              }
+            }
+          }
+        }
+      }
+
+      // Date-picker style
+      .locationAndDateWrap {
+        .date-picker-popup {
+          .Date-picker-range {
+            justify-content: center;
+            text-align: center;
+            margin-top: 0px;
+            padding: 0px 0px;
+            .DateRangePicker {
+              width: 300px;
+              min-width: 300px;
+              margin: 0px 0px;
+              .DateRangePickerInput {
+                justify-content: center;
+                .DateRangePickerInput > div {
+                  width: auto;
+                  max-width: auto;
+                }
+                .DateInput {
+                  margin: 9px 0px 5px 0px;
+                  margin-left: -5px;
+                  .DateInput_input {
+                    margin-left: 0px;
+                    border: none;
+                    box-shadow: none;
+                    padding: 0px;
+                    background: transparent;
+                  }
+                }
+                .DateRangePickerInput_arrow {
+                  margin-left: 5px !important;
+                  margin-right: 0px;
+                  margin-top: 3px;
+                  width: 60px;
+                }
+                .DateRangePickerInput_calendarIcon {
+                  margin-right: 5px !important;
+                  padding: 0px 0px;
+                  margin-top: 3px;
+                }
+              }
+            }
+          }
+        }
+      }
+      // Date-picker style End
+
+      // Single-datepicker style
+      .locationAndDateWrap {
+        .date-picker-popup {
+          padding: 40px 0px;
+          .inputPopTitle {
+            font-size: 28px;
+            font-weight: 300;
+            color: var(--text-color);
+            display: block;
+            padding-left: 29px;
+            padding-right: 0px;
+            margin-bottom: 20px;
+          }
+          .SingleDatePicker {
+            display: flex;
+            text-align: center;
+            width: 100%;
+            > div {
+              width: 100%;
+            }
+            .SingleDatePickerInput {
+              position: relative;
+              max-width: 300px;
+
+              .SingleDatePickerInput_calendarIcon {
+                position: absolute;
+                z-index: 1;
+                margin-right: 0px;
+                left: 70px;
+                top: 7px;
+                padding: 10px;
+              }
+              .DateInput {
+                width: 100%;
+                input {
+                  border: none;
+                  text-align: center;
+                  border-radius: 0px;
+                  background: none;
+                  box-shadow: none;
+                  padding: 12px 20px 0px 30px;
+                  border: none;
+                  border-bottom: 2px solid #4385d0;
+                }
+              }
+            }
+          }
+          .SingleDatePicker_picker {
+            left: 0px !important;
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            .DayPicker_transitionContainer,
+            .DayPicker__withBorder {
+              box-shadow: none;
+              border: none;
+              min-height: 350px;
+              width: 300px !important;
+              background: transparent;
+              border-radius: 0px;
+              margin-left: -5px;
+             
+            }
+            .DayPicker__withBorder > div > div {
+              width: 300px !important;
+              border-radius: 0px;
+              margin: 0 auto;
+            }
+            .CalendarMonth_table {
+              width: 300px !important;
+              margin-left: 6px;
+              .CalendarDay {
+                font-size: 17px;
+                border-width: 0;
+                height: 42px !important;
+                width: 45px !important;
+              }
+            }
+            .DayPicker_weekHeaders__horizontal {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+      // Single-datepicker style End
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .child-age-flex {
+    width: 100%;
+    > div {
+      display: flex;
+      flex: 100%;
+      flex-wrap: nowrap;
+
+      label {
+        flex: 0 0 70%;
+        width: 70%;
+      }
+
+      .css-b62m3t-container {
+        flex: 0 0 30%;
+        width: 30%;
+        justify-content: right;
+      }
+    }
+  }
+}
+@media (max-width: 579px) {
+  #flightsTab {
+    .roomNpersonWrap .dropdownInWrap {
+      left: 0;
+      right: 0;
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  #apartmentsTab .showDropdown .mobilePopup {
+    .widget-dropdown {
+      padding-left: 30px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .widget-page-wrap {
+    .dropdown-menu {
+      position: absolute;
+      min-width: 107%;
+      max-height: 300px;
+      padding: 10px 0px;
+      margin-left: -10px;
+
+      .dorpdown-content .locationName {
+        padding-left: 25px;
+      }
+    }
+  }
+
+  .boxStyle #apartmentsTab {
+    .showDropdown {
+      .icon-location-on {
+        top: 22px;
+        left: 2px;
+      }
+
+      .icon-location-on:before {
+        font-size: 18px;
+      }
+
+      .dorpdown-content {
+        .icon-location-on {
+          top: 20px;
+          font-size: 16px;
+          left: 11px;
+        }
+
+        .icon-location-on:before {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  #flightsTab {
+    .mobilePopup {
+      overflow: hidden;
+
+      .inputInWrap {
+        .rbt-input-hint {
+          min-width: 100%;
+          background: none;
+        }
+        .icon-location-on {
+          left: 4px !important;
+        }
+      }
+      .dorpdown-content {
+        .icon-location-on {
+          left: 15px !important;
+        }
+        .locationCode {
+          margin-left: 7px;
+        }
+      }
+    }
+  
+
+    .mobileShow {
+      .dropdownWrap .btnSml {
+        flex: 0 0 48.5%;
+        min-width: auto;
+        margin-right: 0px;
+      }
+    }
+  }
+  }
+@media (max-width: 420px) {
+  #flightsTab .flightTypeCnt {
+    .flightCnt {
+      .addremoveBtn {
+        .addFlight,
+        .removeFlight {
+          font-size: 14px !important;
+        }
+        .icon-add {
+          font-size: 12px !important;
+        }
+        .icon-minus:before {
+          color: var(--text-color3);
+          font-weight: bold;
+          font-weight: 20px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .Date-picker-range {
+    .DateRangePickerInput {
+      font-size: 16px;
+      padding: 0px 0px;
+      margin: 16px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 100%;
+
+      .DateInput {
+        flex: 0 0 90px;
+        margin: 0;
+        width: 70px;
+        padding: 0px !important;
+
+        .DateInput_input {
+          font-size: 1rem;
+          margin-left: -5px !important;
+          border-bottom: 0;
+          padding: 5px 0px 0px;
+        }
+      }
+
+      .DateRangePickerInput_calendarIcon {
+        margin-right: 10px;
+        vertical-align: top;
+        padding: 0px;
+        margin-top: -2px;
+        margin-left: 10px !important;
+      }
+
+      .DateRangePickerInput_arrow {
+        display: inline-block;
+        vertical-align: middle;
+        color: #484848;
+        margin-right: 4px !important;
+        margin-top: -3px;
+      }
+    }
+  }
+  #flightsTab {
+    .mobilePopup {
+      overflow: hidden;
+
+      .dorpdown-content {
+        .locationCode {
+          margin-left: 7px;
+        }
+      }
+
+    }
+    .locationAndDateWrap {
+      .date-picker-type {
+        width: 100%;
+        .datepicker-types {
+          .date-types-2 {
+            text-align: center;
+            .icon-arrow {
+              margin-left: 0px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #flightsTab .flightTypeCnt{
+
+      .locationAndDateWrap {
+        .date-picker-popup {
+          .Date-picker-range {
+            .DateRangePicker {
+              .DateRangePickerInput {
+                justify-content: space-between;
+              }
+              }
+            }
+          }
+        }
+}
+}
+
+@media (max-width: 375px) {
+  .widget-page-wrap .tabContentWrap {
+    .dropdownWrap {
+      .btnSml {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .adultdropdown-wrapper {
+        display: flex;
+        flex: 0 0 100%;
+        button {
+          margin-right: 5px;
+          flex: 0 0 49%;
+          width: 49%;
+        }
+      }
+    }
+  }
+
+  #flightsTab {
+    .flexStart .flightType {
+      .btnSml {
+        padding: 6px;
+        margin-right: 10px;
+        min-width: auto;
+      }
+    }
+    .mobileShow {
+      .dropdownWrap .btnSml {
+        flex: 0 0 47%;
+        min-width: auto;
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .widget-page-wrap {
+    .dropdown-menu {
+      position: absolute;
+      min-width: 107%;
+      max-height: 300px;
+      margin-left: -10px;
+
+      .dorpdown-content .locationName {
+        padding-left: 22px;
+      }
+    }
+  }
+
+  .boxStyle #apartmentsTab {
+    .showDropdown {
+      .icon-location-on {
+        top: 22px;
+        left: 3px;
+      }
+
+      .dorpdown-content {
+        .icon-location-on {
+          top: 20px;
+          left: 10px;
+        }
+      }
+    }
+  }
+}

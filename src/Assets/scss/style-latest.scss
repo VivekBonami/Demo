@@ -1,0 +1,56 @@
+.ReactModal__Overlay {
+  z-index: 999;
+}
+
+// Login-page, forgot-password-page, reset-passoward-page error message style
+
+.boxBg {
+  max-width: 480px;
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  .textCnt {
+    text-align: center;
+    color: #435b75;
+
+    h6 {
+      font-size: 21px;
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-bottom: 28px;
+    }
+  }
+
+  // error-message-style
+
+  .input-text-wrapper {
+    position: relative;
+    padding-bottom: 7px;
+    .star-red {
+      position: absolute;
+      top: 56px;
+      left: 45px;
+      font-size: 14px;
+      color: red;
+    }
+  }
+}
+
+//   End error msg ui
+
+// freemiumsignup page bottom-space
+
+.freemiumsignupPageWrap {
+  .signupWrapper {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 40px;
+  }
+}
+
+// freemiumsignup page end

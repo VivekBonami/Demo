@@ -1,0 +1,208 @@
+/*Media Query*/
+
+@media (min-width: 1600px) {
+  .networkPageWrap .qr-code-section .qr-code-section-wrap {
+    background-size: auto 100%;
+    background-position: 90% bottom;
+  }
+}
+
+@media (min-width: 1500px) {
+  .networkPageWrap .qr-code-section .qr-code-section-wrap {
+    background-position: 100% bottom;
+    background-size: auto 99%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1221px) {
+  #flightsTab {
+    .startEndLocation {
+      align-items: flex-end;
+    }
+
+    .searchBtnWrap {
+      margin-bottom: 0px;
+      margin-left: 5px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .infoWrapper {
+    .btnBorder {
+      min-width: 80px;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .networkPageWrap .qr-code-section .qr-code-section-wrap {
+    background-size: auto 90%;
+    background-position: 115% bottom;
+  }
+
+  .EZView {
+    iframe {
+      width: 1100px !important;
+      max-width: 1100px !important;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .infoWrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .membersRewardsPageWrap {
+    padding-bottom: 70px;
+
+    .tab-menu-wrapper {
+      ul {
+        li {
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .reward-dashbaord-wrapper {
+      .commission-content-wrapper {
+        .content {
+          h2 {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+
+    .walletWrapper {
+      .btnSml.width180 {
+        width: 100%;
+      }
+
+      .wallet-heading-info {
+        h3 {
+          font-size: 40px;
+        }
+
+        .filter-wrapper,
+        .transaction-heading-content {
+          padding: 15px 10px;
+        }
+      }
+
+      .row {
+        .left-content {
+          padding: 15px 10px;
+        }
+      }
+    }
+  }
+
+  .networkPageWrap {
+    .container {
+      padding: 0 15px;
+    }
+
+    .qr-code-section {
+      .left-content {
+        max-width: 460px;
+      }
+    }
+  }
+
+  .EZView {
+    iframe {
+      width: 1000px !important;
+      max-width: 1000px !important;
+    }
+  }
+
+  .membersCheckoutPageWrap {
+    .rewardsSection {
+      .imgContent {
+        padding-left: 65px;
+
+        .content {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* max-width: 1199 end*/
+
+@media (max-width: 1120px) {
+  .whiteBtn {
+    padding: 6px 10px;
+  }
+
+  .siteBg,
+  .listingPage {
+    .container {
+      padding: 0 10px;
+    }
+  }
+
+  .detailPageWrap {
+    .bannerSlider {
+      .content {
+        .mapWrap {
+          img {
+            height: 120px;
+          }
+        }
+      }
+    }
+  }
+
+  .listingPageWrap {
+    .leftSideBar {
+      .priceBtn {
+        button {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .networkPageWrap .qr-code-section .qr-code-section-wrap {
+    background-size: auto 80%;
+  }
+
+  .add-wallet-balance {
+    .add-wallet-balance-row {
+      h5 {
+        min-height: 28px;
+      }
+    }
+  }
+
+  .membersRewardsPageWrap .commission-content-tabs .heading h6 {
+    font-size: 12px;
+  }
+
+  .membersCheckoutPageWrap {
+    .walletWrapper {
+      .leftContent {
+        .card {
+          padding: 20px 15px 20px 15px;
+        }
+        .signUpWrapper .content {
+          h4 {
+            font-size: 13px;
+          }
+          h3 {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* max-width: 1120 end*/

@@ -1,0 +1,12 @@
+// navigation toggle menu
+
+.landingPageWrap header {
+  .menuBtn {
+    border: none;
+    background: none;
+
+    .navbar-toggler-icon span {
+      margin: 0.1px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<svg width="188" height="63" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="c">
+            <stop stop-color="#1377C4" offset="0%"/>
+            <stop stop-color="#00CEDA" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="94.378%" id="e">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#006DBF" offset="100%"/>
+        </linearGradient>
+        <filter x="-7.9%" y="-30%" width="115.9%" height="160%" filterUnits="objectBoundingBox" id="b">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"/>
+            <feOffset dx="-2" dy="-2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <path d="M22.5 0h125C159.926 0 170 10.074 170 22.5S159.926 45 147.5 45h-125C10.074 45 0 34.926 0 22.5S10.074 0 22.5 0z" id="a"/>
+    </defs>
+    <g transform="translate(9 9)" fill="none" fill-rule="evenodd">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        <use fill="url(#c)" xlink:href="#a"/>
+        <g mask="url(#d)" fill="url(#e)">
+            <path d="M19.276 43.747c-1.881-3.977-.959-12.263 2.628-15.85l.228-.223.233-.216.173-.154 2.92 7.237c.274.694 1.171.804 1.672.235l.066-.081 1.736-2.309c.151-.188.221-.425.224-.641l-.004-.106-.967-9.85v-.043l.215-.24.407-.465.377-.445.347-.425.163-.206.305-.398.278-.38.129-.183.238-.353c.075-.115.146-.228.213-.337l.189-.321c.942-1.67.878-2.675.373-3.386l-.1-.13a2.438 2.438 0 0 0-.053-.063l-.109-.116-.048-.046a2.51 2.51 0 0 0-.123-.11l-.13-.099c-.711-.504-1.717-.568-3.387.374l-.32.188c-.11.067-.222.138-.337.213l-.354.239-.183.128-.38.278-.397.305-.206.163-.426.348-.445.376-.465.407-.24.216h-.044l-9.848-.968-.106-.004c-.18.003-.375.052-.544.155l-.098.07-2.308 1.736-.082.066c-.542.477-.467 1.313.14 1.627l.096.044 7.236 2.92-.154.174c-.141.156-.287.31-.438.46-3.587 3.587-11.874 4.51-15.85 2.629.832 5.522 2.587 9.62 5.263 12.297 2.676 2.676 6.775 4.43 12.297 5.263z"/>
+        </g>
+    </g>
+</svg>
